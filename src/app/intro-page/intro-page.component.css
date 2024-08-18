@@ -1,0 +1,70 @@
+.news-grid {
+
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+  }
+  .news-grid h2{
+    background-color: lightgrey;
+    color: rgb(53, 7, 7);;
+  }
+
+  /* src/app/introduction/introduction.component.css */
+.introduction-container {
+  
+    padding: 20px;
+  }
+  
+  .hero-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .features-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature-item {
+    width: 30%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: rgb(53, 7, 7);
+  }
+  
+  .latest-headlines {
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  .headline-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .headline-card {
+    flex: 1;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

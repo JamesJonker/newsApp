@@ -1,0 +1,70 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+  }
+  
+  .popup-content {
+
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  
+    max-width: 600px;
+    max-height: 80%;
+    
+  }
+
+  .t_cwording{
+
+    background: white;
+    position: relative;
+    max-height: 450px;
+    overflow-y: auto;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  .header_display{
+
+    text-align: center;
+    width: 100%;
+    align-items: center;
+
+  }
+  .foot_display{
+    padding: 20px;
+    text-align: right;
+  }
+
+  .accept_button{
+    border-radius: 8px 8px 8px 8px;
+    background-image: linear-gradient(to bottom right, black, grey);  
+    height: 45px;
+    width: 150px;
+    color: white;
+}

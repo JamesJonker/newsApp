@@ -1,0 +1,25 @@
+
+  <div class="introduction-container">
+    <header class="hero-section">
+      <img style="width: 450px;" src="../../assets/images/stock-photo-breaking-news.jpeg">
+    </header>
+  
+    <section class="features-section">
+      <div class="features-grid">
+        <div class="feature-item">
+          <p>Stay updated with the latest breaking news around the world.</p>
+        </div>
+      </div>
+    </section>
+  
+    <section class="latest-headlines">
+      <!-- <h2>Latest Headlines</h2> -->
+      <div class="headline-cards">
+        <div class="news-grid">
+            <div class="news-card" *ngFor="let article of articles">
+              <h2>{{ article.title }}</h2>
+            </div>
+          </div>
+      </div>
+    </section>
+  </div>
