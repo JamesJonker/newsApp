@@ -37,6 +37,7 @@ Before login in you will need to register a new user.
 click on the registration button and complete the form.
 once registration is complete you will be able to log in.
 
+once you are logged in you will be able to add new articles as well as edit and remove articles
 
 
 
