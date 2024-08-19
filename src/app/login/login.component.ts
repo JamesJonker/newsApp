@@ -14,8 +14,8 @@ export class LoginComponent {
 
   @Output() messageEvent = new EventEmitter<string>();
 
-  username: string = 'admin';
-  password: string = 'testadmin';
+  username: string = '';
+  password: string = '';
 
 
   errorMessage: string | null = null;
