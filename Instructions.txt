@@ -1,0 +1,43 @@
+Instructions.
+
+create folder for application
+open command prompt
+
+go to created folder 
+
+git clone https://github.com/JamesJonker/newsApp.git
+
+go to newsApp folder
+
+to open the code type in "code ."
+
+
+Setup and run backend
+in command prompt go to newsApp/backend
+
+type command node server.js
+example
+C:\testAnguler\newsApp\backend>node server.js
+Database does not exist. Creating database...
+Server is running on http://localhost:3000
+Connected to the SQLite database.
+Database created successfully.
+Users table created successfully.
+Table "news" created or already exists
+
+Once the server is up and running open new command prompt and go to application folder
+
+type the command
+npm install
+this will install all packages required to run the application
+
+If the backend is running and npm install has been done run the command ng serve in command promt.
+
+Before login in you will need to register a new user.
+click on the registration button and complete the form.
+once registration is complete you will be able to log in.
+
+
+
+
+
